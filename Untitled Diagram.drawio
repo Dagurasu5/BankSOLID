@@ -1,44 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T17:33:10.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 OPR/87.0.4390.58" etag="9VowTJFg3UAgnCk6UFDN" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-27T18:04:19.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 OPR/87.0.4390.58" etag="EjdwPUgoLyvUC80_KC_8" version="15.7.0" type="github">
   <diagram id="M8zL0fHzHbNwxCJG7kJJ" name="Page-1">
-    <mxGraphModel dx="1888" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQNF4OG07XMYP4VBlLAa-4" target="qQNF4OG07XMYP4VBlLAa-9">
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQNF4OG07XMYP4VBlLAa-6" target="qQNF4OG07XMYP4VBlLAa-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-4" value="Client" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="340" y="540" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-5" value="Name&lt;br&gt;ID&lt;br&gt;Password" style="whiteSpace=wrap;html=1;" vertex="1" parent="qQNF4OG07XMYP4VBlLAa-4">
-          <mxGeometry y="20" width="200" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-6" value="Register" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="540" width="200" height="200" as="geometry" />
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-6" value="Client" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="149" y="560" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="qQNF4OG07XMYP4VBlLAa-7" value="Name&lt;br&gt;Password&lt;br&gt;Email&lt;br&gt;Doccument&lt;br&gt;User type&lt;br&gt;&lt;br&gt;+void AccountType&lt;br&gt;+Scanner Name&lt;br&gt;+Scanner password&lt;br&gt;+Scanner Email&lt;br&gt;+Scanner Doccument" style="whiteSpace=wrap;html=1;" vertex="1" parent="qQNF4OG07XMYP4VBlLAa-6">
           <mxGeometry y="20" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="qQNF4OG07XMYP4VBlLAa-8" value="Login" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="340" y="310" width="200" height="200" as="geometry" />
+          <mxGeometry x="479" y="560" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="qQNF4OG07XMYP4VBlLAa-9" value="Email&lt;br&gt;Password" style="whiteSpace=wrap;html=1;" vertex="1" parent="qQNF4OG07XMYP4VBlLAa-8">
           <mxGeometry y="20" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-10" value="Account" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="310" width="200" height="200" as="geometry" />
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-10" value="Register" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="149" y="320" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-11" value="Account type&lt;br&gt;Trans-ID&lt;br&gt;&lt;br&gt;+Account: constructor&lt;br&gt;+void Deposit&lt;br&gt;+void getTransID" style="whiteSpace=wrap;html=1;" vertex="1" parent="qQNF4OG07XMYP4VBlLAa-10">
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-11" value="Account type&lt;br&gt;Client&lt;br&gt;Transacction&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qQNF4OG07XMYP4VBlLAa-10">
           <mxGeometry y="20" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQNF4OG07XMYP4VBlLAa-7" target="qQNF4OG07XMYP4VBlLAa-11">
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-24" value="Hacer funciones básicas de transferencia" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="230" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-26" value="Transacction" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="479" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-27" value="Menu transacction&lt;br&gt;Trans-ID&lt;br&gt;&lt;br&gt;Va el código que está como BANK (Menú)&lt;br&gt;&lt;br&gt;+void getTransID&lt;br&gt;+void Withdraw" style="whiteSpace=wrap;html=1;" vertex="1" parent="qQNF4OG07XMYP4VBlLAa-26">
+          <mxGeometry y="20" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQNF4OG07XMYP4VBlLAa-11" target="qQNF4OG07XMYP4VBlLAa-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQNF4OG07XMYP4VBlLAa-5" target="qQNF4OG07XMYP4VBlLAa-7">
+        <mxCell id="qQNF4OG07XMYP4VBlLAa-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQNF4OG07XMYP4VBlLAa-7" target="qQNF4OG07XMYP4VBlLAa-8">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qQNF4OG07XMYP4VBlLAa-24" value="Registro, Login, Transacción" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="230" width="530" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
